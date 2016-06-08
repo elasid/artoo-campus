@@ -1,31 +1,65 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <base href="/">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width">
-    <title>Artoo Campus - Services</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="ui/appbar/appbar.css">
-  </head>
-  
-  <body ng-app="artoo">
-    <appbar></appbar>
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <base href="/">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width">
+      <title>Artoo Campus - Services</title>
+      <link rel="stylesheet" href="main.css">
+      <link rel="stylesheet" href="ui/appbar/appbar.css">
+      <link rel"stylesheet" href="ui/form/form.css">
+    </head>
     
-    <!-- create an items service with the following methods: get, add, remove, etc -->
-    
-    <!-- create a controller to expose the service to the view -->
-    
-    <!-- create a user service with the following methods: getStatus, takeHit, drinkPotion, useMana, useGem, gainExp, die, respawn -->
-    
-    <!-- create a controller to expose the service to the view -->
-    
-    <script src="node_modules/angular/angular.min.js"></script>
-    <script src="ui/appbar/appbar.js"></script>
-    <script src="subjects/services/app.js"></script>
-    
-    <!-- include items service -->
-    
-    <!-- include user service -->
-  </body>
-</html>
+    <body ng-app="artoo">
+      <appbar></appbar>
+       <div ng-controller ="PlayerCtrl">
+         <div> hp:{{PlayerSvr.get().level}}</div>
+      <div> hp:{{PlayerSrv.get().hp}}</div>
+      <div> is dead:{{PlayerSrv.isDead()}}</div>
+      
+      <div style="margin-top: 10px;">
+      <span ng-hide="PlayerSrv.isDead()">
+      <button ng-hide="PlayerSvr.isDead()" ng-click="PlayerSvr.die()">Kill</button>
+      <button ng-click="PlayerSvr.takeHit(37)">TakeHit</button>
+      <button ng-hide="PlayerSvr.isDead()" ng-click="PlayerSvr.drinkPotion()">drinkPotion</button>
+      <button  ng-hide="PlayerSvr.isDead()" ng-click="PlayerSvr.levelUp()">levelUp</button> 
+      <button ng-show="PlayerSvr.isDead()" ng-click="PlayerSvr.respawn(10)">respaun</button>
+      </span>
+      </div>
+      <!--<div ng-controller="ItemsCtrl">-->
+      <!--<div ng-repeat="item in ItemsSrv.get()">-->
+      <!--  <div>Item #:{{$index+1}}</div>-->
+        
+      <!--  <div> name:{{item.name}}</div>-->
+      <!--  <div> Description:{{item.description}}</div>-->
+      <!--  <div> Price:{{item.Price}} gold  </div>-->
+      <!--  <div>Avaibility:{{item.availability}}</div>-->
+      <!--  <div>Races:{{items.Races}</div>-->
+      <!--<div style="margin-top: 10px">-->
+      <!--  <button ng-click ="ItemsSrv.updateAvailability(item,+1)">+1</button>-->
+      <!--  <button ng-click ="ItemsSrv.updateAvailability(item,-1)">-1</button>-->
+      <!--  <button ng-click="ItemsSrv.remove(item)">Remove</button>-->
+      <!--<hr>-->
+      <!--</div>-->
+      <!-- create an items service with the following methods: get, add, remove, etc -->
+      
+      <!-- create a controller to expose the service to the view -->
+      
+      <!-- create a user service with the following methods: getStatus, takeHit, drinkPotion, useMana, useGem, gainExp, die, respawn -->
+      
+      
+      
+      <!-- create a controller to expose the service to the view -->
+      
+      <script src="node_modules/angular/angular.min.js"></script>
+      <script src="ui/appbar/appbar.js"></script>
+      <script src="subjects/services/app.js"></script>
+     <script src="subjects/items.service.js"></script>
+     <script src="subjects/items.controller.js"></script>
+    <script src="subjects/service/player.controller.js"></script>
+    <script src="subjects/service/player.service.js"></script>
+      <!-- include items service -->
+      
+      <!-- include user service -->
+    </body>
+  </html>

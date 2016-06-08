@@ -5,7 +5,7 @@ var app =  angular
  var app = angular
  .module('artooInit')
  .run(() =>{
-   console.info('My module is up running!');    
+   console.info('I run in the getter!');    
  });
 // define a run function
 app.run(function(){
