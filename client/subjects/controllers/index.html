@@ -12,15 +12,58 @@
   <body ng-app="artoo">
     <appbar></appbar>
     
-    <!-- load the item controller -->
     
     <!-- bind the item controller to an element -->
+    <div ng-controller ="ItemsCtrl">
+       <!-- interpolate the data to the view -->
+      
+      
+      <div>Player name: {{player.name}}</div>
+      <div>Player hp: {{player.hp}}</div>
+      <div>Is player Dad?: {{isDead}}</div>
+      <div>player level:{{player.level}}</div>
+      <div>player exp :{{player.exp}}</div>
+    <button ng-click="Take damage(40)">Take damage </button></button>
+    <button ng-click="levelUp()">level</button>
+    <button ng-click="gainExp()">gain exp </button>
+      <div>
+        Name: {{item.name}}
+      </div>
+       <div>
+         Description:<span ng-bind="item.description"></span>
+       </div>
+       <button ng-click ="toogleDescription()">
+         <span ng-show= "visibleDescription">show description</span>
+          <span ng-hide="visibleDescription">hide description</span>
+       </button>
+       
+        <div>
+          Slots:<span ng-bind="item.slots"></span>
+        </div>
+        <div>
+          Fits in bag? {{checkIfFits(item,5)}}
+        </div>
+        <div>
+          <img  ng-hide="!item" ng-src="{{item.image}}"alt="">
+        </div>
+        
+        <button ng-click="dispose()">Dispose</button>
+      
+    </div>
+    <div ng-controller="playerCtrl">
+      </div>
+  
+      
+    </div>
+  
     
-    <!-- interpolate the data to the view -->
+   
     
     <!-- understanding the scope -->
     
+    
     <!-- add handles for behaviours -->
+    
     
     <!-- create another controller for the player for managing data such as personal and game info -->
     
@@ -28,5 +71,7 @@
     <script src="ui/appbar/appbar.js"></script>
 
     <script src="subjects/controllers/app.js"></script>
+    <!-- load the item controller -->
+    <script  src ="subjects/controllers/item.controller.js"></script>
   </body>
 </html>
