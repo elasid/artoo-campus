@@ -1,0 +1,397 @@
+[33mcommit 58dd315f96b18381a9204790eae2982d9eca4b3f[m
+Author: 3895525483 <elsygjonaj@gmail.com>
+Date:   Tue Jun 7 16:24:54 2016 +0000
+
+    indoo
+
+[33mcommit ca8acee734b191bffb3aabea8dbd524bb79d0fd0[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Mon Jun 6 16:00:12 2016 +0000
+
+    feature(): add subjects/node-express steps
+
+[33mcommit ed79be8ae7e89b5b0f86d35d96083c8bf67aba51[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Mon Jun 6 15:07:49 2016 +0000
+
+    feature(): add subjects/promises steps
+
+[33mcommit 9e115320a71ed62202472fdcb57c5e18f75687e9[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Mon Jun 6 14:56:31 2016 +0000
+
+    feature(): add subjects/material steps
+
+[33mcommit e0a839360be8b4caa4a2a5efe6f50c6b3ff56df5[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Mon Jun 6 14:50:02 2016 +0000
+
+    feature(): add subjects/ui-router steps
+
+[33mcommit 832bece1bd3bf2274ff79627983b5af7ff739859[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Mon Jun 6 13:28:06 2016 +0000
+
+    fix(): clean subjects/components steps
+
+[33mcommit 12360d335413c340afb0f50e9a2d28143ce4510b[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Mon Jun 6 10:47:44 2016 +0000
+
+    feature(): add subjects/custom-directives steps
+
+[33mcommit 7ddddaceb959f3d16fddcffb268281f004e7baa2[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Mon Jun 6 10:31:27 2016 +0000
+
+    fix(): clean subjects/directives steps
+
+[33mcommit 2d16724c8e5300d747efd74281b3abaa3edcbf2d[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Mon Jun 6 10:22:45 2016 +0000
+
+    fix(): clear subjects/filters steps
+
+[33mcommit f4b77cf5dc6b81e3feca546bce8034783a967329[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Mon Jun 6 10:09:04 2016 +0000
+
+    fix(): clean subjects/forms steps
+
+[33mcommit c2a44db5d1fa474ceb0ad6fe0060cc69ca33b9b9[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Mon Jun 6 09:53:49 2016 +0000
+
+    fix(): clarify subjects/services steps
+
+[33mcommit 056e13fce4b806d6932501a6f87664d8b6a267f7[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Mon Jun 6 09:44:04 2016 +0000
+
+    feature(): add git setup to readme
+
+[33mcommit 7a5ff32462b7cdcb08b29b8d7992524408ae639d[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Mon Jun 6 07:20:04 2016 +0000
+
+    fix(): templates come after custom directives in subjects
+
+[33mcommit 8e0a4c9ce1a6700f6676933a9e0f45091491c772[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Mon Jun 6 07:01:33 2016 +0000
+
+    fix(): update main title
+
+[33mcommit b102efb49be51e17c7eea30f4dbddca2feb51f23[m
+Author: David Sorrentino <me@davidsorrentino.com>
+Date:   Sun Jun 5 22:16:29 2016 +0200
+
+    Update README.md
+
+[33mcommit b24c81df96c63645326ed263c3326836d83476d3[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed Jun 1 14:11:32 2016 +0000
+
+    feature(): add splashscreen to main
+
+[33mcommit 70a2f2015a82b00c6d7fbb5b8c09adab4404ba0f[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed Jun 1 13:54:16 2016 +0000
+
+    feature(): add project ph
+
+[33mcommit 7fc9e1cfdc2aed41e45fb5f106f714a95771961b[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed Jun 1 13:37:24 2016 +0000
+
+    feature(): add project link to the appbar
+
+[33mcommit 9a6dc4faec085c5c45f733702d573b8fd1ea2337[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed Jun 1 11:49:21 2016 +0000
+
+    fix(): improve a step in subjects/expressions
+
+[33mcommit e65cd28f4dcb7f578a4fa462e352230be7554820[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed Jun 1 11:47:33 2016 +0000
+
+    fix(): clean subjects/custom-directives
+
+[33mcommit 148d5fac6e81a473b3128095c2b3fef4d7cce02d[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed Jun 1 11:44:19 2016 +0000
+
+    feature(): add numbers to subjects
+
+[33mcommit cb76f25f17f668bb0512b7475ba805b75159ac5d[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed Jun 1 11:41:48 2016 +0000
+
+    feature(): add exercises mockups
+
+[33mcommit 326d880f1f7a49b202c791e101f4e70a29498899[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed Jun 1 07:27:39 2016 +0000
+
+    feature(): add subjects/components steps
+
+[33mcommit 5772c4d2417807f939ad4012ba8563cff704e6c0[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Tue May 31 14:14:02 2016 +0000
+
+    feature(): add subjects/templates steps
+
+[33mcommit 780e164f83880b22c2423d05dbbb8887a8971df2[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Tue May 31 08:28:35 2016 +0000
+
+    feature(): add subjects/directives steps
+
+[33mcommit ec32c39a687d587a2642a87adb409251495f01a2[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Mon May 30 07:47:39 2016 +0000
+
+    feature(): add subjects/forms steps
+
+[33mcommit 10f8c9dada996a42b63e0060216c79822a1a8d64[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Fri May 27 16:29:54 2016 +0000
+
+    feature(): add subjects/filters steps
+
+[33mcommit 153b4e60536f2d0b99b247f1662509fe634fcf95[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Fri May 27 14:23:34 2016 +0000
+
+    fix(): no more providers
+
+[33mcommit 28ab97145542a271c283bef027ee8fe0f178f8e1[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Fri May 27 14:00:21 2016 +0000
+
+    feature(): add subjects/services steps
+
+[33mcommit 9a5839dc7dd8777ebf7348fc90a81ad9d8a241d4[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Fri May 27 11:29:01 2016 +0000
+
+    feature(): add subjecs/controllers steps
+
+[33mcommit 986afaf6ce0bc273d1d711ddec1af3cca20ee2a0[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Fri May 27 11:07:19 2016 +0000
+
+    feature(): add subjects/expressions steps
+
+[33mcommit a736dfc03098fa8ab42c8cae456efcfdec4421fd[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Fri May 27 09:16:22 2016 +0000
+
+    feature(): add providers setup
+
+[33mcommit 61ae1cde3e3c0cf68c866841d5e4c84a9078bf32[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Thu May 26 12:01:10 2016 +0000
+
+    feature(): add subjects/init steps
+
+[33mcommit f2e9b41dd0cbe22d2cbfdd15c526009e91bdfa61[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Thu May 26 09:58:26 2016 +0000
+
+    fix(): remove empty boxes from main
+
+[33mcommit ec4f97fbca0f4a82c96fdbd16e1f4f912adf5ae3[m
+Merge: 017fbee 71e1885
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Thu May 26 09:54:40 2016 +0000
+
+    Merge branch 'master' of github.com:weboxstudio/artoo-campus
+
+[33mcommit 017fbee101f21b4404e3630a0133e18ac2f9e666[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Thu May 26 09:54:37 2016 +0000
+
+    feature(): modularise appbar
+
+[33mcommit 71e18853490c6f4c0fa3887ae790fb74473ff92f[m
+Author: David Sorrentino <me@davidsorrentino.com>
+Date:   Mon May 16 19:35:14 2016 +0200
+
+    Update README.md
+
+[33mcommit c971445d520bc24311df7f437a3ba6f293cf2d9a[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Thu May 12 14:48:01 2016 +0000
+
+    fix(): improve main container style
+
+[33mcommit 1276b8325caf3319ab6e4454d11b9f68bf494b2f[m
+Author: David Sorrentino <me@davidsorrentino.com>
+Date:   Thu May 12 16:33:03 2016 +0200
+
+    Delete settings.json
+
+[33mcommit 99fbd61b7cf79055397a8a4e4ccc3de1ce881912[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Thu May 12 14:28:17 2016 +0000
+
+    feature(): get settings in server
+
+[33mcommit 558ccc878416d1c7a1f3c78378795ff2c97c7b2f[m
+Merge: d0ab30b ce1ede3
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Thu May 12 14:27:44 2016 +0000
+
+    Merge branch 'master' of github.com:weboxstudio/artoo-campus
+
+[33mcommit d0ab30b5a92aae5bc21781dd8e09e13555307bbf[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Thu May 12 14:27:02 2016 +0000
+
+    feature(): get settings in server
+
+[33mcommit ce1ede37d59b24b63a9b010175ca99b27b609a27[m
+Author: David Sorrentino <me@davidsorrentino.com>
+Date:   Thu May 12 16:26:08 2016 +0200
+
+    Create settings.json
+
+[33mcommit a140bf55ac11bf4fbf5d9878f33f1f7e1803eea2[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Thu May 12 13:26:19 2016 +0000
+
+    chore(): move gulp to dev-dependencies
+
+[33mcommit d9ce2e7a16862962293297bc36271729cf748bb3[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Thu May 12 10:44:19 2016 +0000
+
+    feature(): add gulp
+
+[33mcommit 23f38816ec7f9efd9a98f69f4a07ab8c2808f378[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Thu May 12 09:22:26 2016 +0000
+
+    feature(): add node server
+
+[33mcommit 094d0a282576b60414835c5f8fce6b17d9cc3c4a[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed May 11 13:50:03 2016 +0000
+
+    feature(): add material setup
+
+[33mcommit 48b62f5bef7092a57e1fe57faaa9d8c2e0932c49[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed May 11 13:22:44 2016 +0000
+
+    feature(): add ui-router setup
+
+[33mcommit 7efac2a60dacb0e32533c341d570d0e9b30f473d[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed May 11 13:21:28 2016 +0000
+
+    feature(): add custom filters and promises setup
+
+[33mcommit a3147d97b715d77dae5698fa3f94e18b986f1552[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed May 11 13:20:09 2016 +0000
+
+    chore(): rename codebase folder to client
+
+[33mcommit ed7253bb851a87796246d95e17293790e4124516[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed May 11 13:08:42 2016 +0000
+
+    feature(): add forms setup
+
+[33mcommit 1b44d8cdd976a70b3dc1e52392537e4582020bff[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed May 11 13:05:25 2016 +0000
+
+    feature(): add services setup
+
+[33mcommit c0dea24a4fc46cf58b863e4271557f3359d65a0c[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed May 11 13:04:21 2016 +0000
+
+    feature(): add compoments setup
+
+[33mcommit 5edd5e992dda363824deaf854ae097a680ca9258[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed May 11 12:59:26 2016 +0000
+
+    feature(): add sections to main container
+
+[33mcommit 83e0419f441209875cf50d0526e496c2e66d3e53[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed May 11 12:19:13 2016 +0000
+
+    feature(): add custom directives setup
+
+[33mcommit e8d25d93c51999cc0cf8718f7cf338f51ab91a6f[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed May 11 12:18:39 2016 +0000
+
+    feature(): add directives setup
+
+[33mcommit cf99ba06c97f7069f736281d683ae995099124bc[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed May 11 12:17:48 2016 +0000
+
+    feature(): add filter setup
+
+[33mcommit 675e24deaecde84ca7d5c72c027b3ac70c4d7d9b[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed May 11 12:16:19 2016 +0000
+
+    feature(): add templates setup
+
+[33mcommit c81e9c1505ac12b9964d883fc2aefbcd4ee82d74[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed May 11 12:11:53 2016 +0000
+
+    feature(): add main container
+
+[33mcommit e5f02a8a2db5b876c2b53745342c77b7873baf81[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed May 11 08:42:43 2016 +0000
+
+    feature(): add init setup
+
+[33mcommit 38fc8bdafa0b81dd39074e5ef5de150d9caa0cb1[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed May 11 08:38:08 2016 +0000
+
+    feature(): add expressions setup
+
+[33mcommit d4253e013ee95e72ac2a446a1e278b2df0716dad[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Wed May 11 08:28:31 2016 +0000
+
+    feature(): add controllers
+
+[33mcommit b56bb0e3534ab15477284afda59c6a6a915a5be2[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Tue May 10 13:48:13 2016 +0000
+
+    docs(): add packages installation info
+
+[33mcommit 66ff971507a62ea4bd48b1f2d6a41e227e239708[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Tue May 10 13:41:30 2016 +0000
+
+    chore(): install angular
+
+[33mcommit 1ed9db3a00e3ad095fd1911db5fc2d09698425c6[m
+Author: David Sorrentino <david@weboxstudio.com>
+Date:   Tue May 10 13:38:18 2016 +0000
+
+    chore(): init npm
+
+[33mcommit 701d5b28296961a9fa136727e0bb050e4e33c242[m
+Author: David Sorrentino <me@davidsorrentino.com>
+Date:   Tue May 10 15:02:03 2016 +0200
+
+    Initial commit
