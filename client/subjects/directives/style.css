@@ -1,0 +1,12 @@
+.item{
+    border:2px dashed #333;
+    margin:10px;
+    height: 20px;
+    transition: all .3s ease-in-out;
+}
+.item.available{
+    border-color: green;
+}
+.item.unavalable{
+    border-color: red;
+}

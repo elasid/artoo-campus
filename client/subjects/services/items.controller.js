@@ -1,5 +1,5 @@
-angular.module('artoo').controller('ItemsCtrl'),($scope,ItemmSrv) => {
+angular.module('artoo').controller('ItemsCtrl'),($scope,ItemsSrv) => {
     $scope.
-    ItemsSrv = "ItemsSrv.get()";
+    ItemsSrv = "ItemsSvr.get()";
    
 }

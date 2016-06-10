@@ -12,6 +12,21 @@
   <body ng-app="artoo">
     <appbar></appbar>
     
+    <div ng-controller = "ItemsCtrl">
+      
+    
+    <lu>
+    <li ng-repeat='item in items'  ng-class="{unavailable: item.availability === 0}">
+      {{item.name}}, {{item.availability}}
+      <p>Index: {{$index}}</p>
+      <p>First? {{$first}}</p>
+      <p>Last?  {{$last}}</p>
+      <p>Odd {{$odd}}</p>
+      <p>Even {{$even}}</p>
+      <button ng-click="buy(item)">Buy</button>
+    </li>
+    </lu>
+    </div>
     <!-- interpolate all items -->
     
     <!-- show only suitable items -->
@@ -29,5 +44,6 @@
     <script src="node_modules/angular/angular.min.js"></script>
     <script src="ui/appbar/appbar.js"></script>
     <script src="subjects/directives/app.js"></script>
+    <script src="subjects/directives/items.controller.js"></script>
   </body>
 </html>
