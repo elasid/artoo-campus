@@ -15,7 +15,7 @@
         this.drinkPotion = () => {
             if(this.isDead()) return;
             var newHp = player.hp + 50;
-            palyer.hp = (newHp > 100) ? 100:newHp
+            player.hp = (newHp > 100) ? 100:newHp
         };
         
         this.gainExp = () => {};

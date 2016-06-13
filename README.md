@@ -36,7 +36,22 @@ npm install
 ![Quests 4](https://assets.moqups.com/57dqoZC60v/Page_1.png)
 
 ##Project
-
+ 
+ Interfaccia - Gestione comande  
 
 ###Features
-*
+
+*Create a table 
+*associated a number of client  to the table
+*Go in the menù
+       *Menù features
+*All the voice of menù ar divided by tipe of food(first,Second plate,ecc)
+*Create a buttom for each menu voice to add it and  associate to the table
+*Each food have a prize 
+*Each food can be uptade to remove or add a ingredients 
+    *Ingredients list featured
+*a list of ingredient to delete or add to the food 
+       *-----------*  
+*Create a vocie bill to insert the commands associate whit the table 
+*add all the prize of menu voice 
+*stamp a bill

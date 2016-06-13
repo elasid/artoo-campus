@@ -11,13 +11,35 @@
   
   <body ng-app="artoo">
     <appbar></appbar>
-    
+  <div ng-controller='CssCtrl'>
+    <div css-adder="option">Imbarcazione da diporto soccorsa in mare ed incidente a bordo di una vongolara, a San Benedetto
+  </div>
+<div   css-adder="{typology: 'dashed'}">Imbarcazione da diporto soccorsa in mare 
+ed incidente a bordo di una vongolara, a San Benedetto
+></div>
+
+<div ng-controller='PlayerCtrl'>
+  <h2>Player Logs</h2>
+  <ul>
+    <li ng-repeat="log in PlayerSrv.getLogs()">{{log}}, at time {{log.date || date : 'hh/MM/ss'}} </li>
+  </ul>
+</div>
+
+
     <!-- create a custom directive that applies css properties to an element -->
     
     <!-- create a custom directive that logs player's click actions -->
     
+    <button  log="fight">Fight!</button>
+      <button  log="potion">Drink a potion</button>
+    
     <script src="node_modules/angular/angular.min.js"></script>
     <script src="ui/appbar/appbar.js"></script>
     <script src="subjects/custom-directives/app.js"></script>
+    <script src="subjects/custom-directives/css.directive.js"></script>
+    <script src="subjects/custom-directives/css.controller.js"></script>
+    <script src="subjects/custom-directives/log.directive.js"></script>ù
+    <script src="subjects/custom-directives/player.service.js"></script>
+    <script src="subjects/custom-directives/player.controller.js"></script>
   </body>
 </html>
